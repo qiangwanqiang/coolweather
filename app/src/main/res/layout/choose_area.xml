@@ -6,7 +6,7 @@
     android:orientation="vertical">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary">
         <TextView
             android:id="@+id/title_text"
@@ -15,6 +15,13 @@
             android:layout_centerInParent="true"
             android:textColor="#fff"
             android:textSize="20sp" />
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/back_button"/>
     </RelativeLayout>
     <ListView
         android:id="@+id/list_view"
