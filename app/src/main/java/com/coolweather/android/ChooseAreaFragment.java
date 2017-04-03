@@ -36,6 +36,7 @@ public class ChooseAreaFragment extends Fragment {
         adapter = new ArrayAdapter<>(getContext(), android.R.layout.simple_list_item_1, dataList);
         listView.setAdapter(adapter);
         return view;
+        ssssssssssssssssssssssssssssssssssss
     }
 
     @Override
